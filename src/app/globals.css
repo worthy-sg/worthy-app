@@ -1,27 +1,128 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.custom-title {
+  font-weight: bold;
+  font-size: 42px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.custom-form {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.custom-form:focus {
+  border-bottom-color: #514FB5;
+  box-shadow: none;
 }
+
+.custom-btn {
+  background: #514FB5;  
+  color: white;
+  border: 2px solid #514FB5;
+  padding: 5px 10px;
+  height: 50px;
+  
+}
+
+.custom-lbl{
+  color: #514FB5!important; 
+}
+
+.custom-font-size-small{
+  font-size: 12px;
+}
+
+.custom-forgot-password{
+  font-size: 12px;
+  color: #514FB5!important; 
+  font-weight: bold;
+  text-align: right;
+  padding-top: 10px;
+  width: 100%;  
+}
+
+.custom-text-align-center{
+  text-align: center;
+}
+
+.custom-text-align-left{
+  text-align: left;
+}
+
+.custom-text-align-right{
+  text-align: right;
+}
+
+.custom-lbl-center{
+  font-size: 12px;
+  color: #514FB5!important; 
+  font-weight: bold;
+  text-align: center;
+  width: 100%;  
+}
+
+.custom-link{
+  text-decoration: none;
+}
+
+.custom-item-align-center {
+  align-items: center;
+}
+
+/*
+.custom-search-btn {
+  border: 2px solid #514FB5;
+}
+*/
+
+.custom-category-btn {
+  background: white;  
+  color: #514FB5;
+  border: 1px solid #514FB5;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+  width: 90px;
+  margin:0px 5px;
+}
+
+.custom-category-btn:hover, .custom-category-btn:active {
+  background: #514FB5;  
+  color: white;
+
+}
+
+.scrollable-categories-container {
+  overflow-x: auto; 
+  white-space: nowrap;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+.scrollable-categories-container::-webkit-scrollbar {
+  display: none; 
+}
+
+.icon-overlay {
+  position: absolute;
+  top: 5%;
+  left: 100%;
+  transform: translate(-30%, -50%);
+  z-index: 1;
+}
+
+.dropdown-menu {
+  width: 200px;
+  height: auto;
+  border-radius: 0;
+  border: none;
+  position:absolute;
+  right: 0;
+}
+
+.dropdown-item {
+  height: 100%;
+  padding: 10px 10px;
+}
+
+

@@ -1,0 +1,29 @@
+{
+    "links":  [
+        {
+            "label": "Home",
+            "href": "/home",
+            "icon": "/assets/icons/icons/icon-fi-home-outlined.svg"
+        },
+        {
+            "label": "Leaderbord",
+            "href": "/leaderboard",
+            "icon": "/assets/icons/icons/icon-bs-leaderboard-customised-outlined.svg"
+        },
+        {
+            "label": "Add Listing",
+            "href": "/addListing",
+            "icon": "/assets/icons/icons/icon-bs-pluscircle-outlined.svg"
+        },
+        {
+            "label": "Message",
+            "href": "/message",
+            "icon": "/assets/icons/icons/icon-bs-message-outlined.svg"
+        },
+        {
+            "label": "Profile",
+            "href": "/profile",
+            "icon": "/assets/icons/icons/icon-fi-user-outlined.svg"
+        }
+    ]
+}

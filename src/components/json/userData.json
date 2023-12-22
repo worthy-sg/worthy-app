@@ -1,0 +1,95 @@
+{
+    
+    "userData":  [
+        { 
+            "name": "User1", 
+            "score": "200",
+            "profileImage": "/assets/images/profile_img.png" 
+        },
+        { 
+            "name": "User2", 
+            "score": "150",
+            "profileImage": "/assets/images/profile_img.png"  
+        },        
+        { 
+            "name": "User3", 
+            "score": "100",
+            "profileImage": "/assets/images/profile_img.png" 
+        },        
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },        
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        },
+        { 
+            "name": "Loren lpsum", 
+            "score": "90" 
+        }
+    ]
+    
+
+    
+  }
