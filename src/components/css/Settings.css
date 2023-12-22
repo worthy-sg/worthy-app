@@ -1,0 +1,21 @@
+.custom-grey-bg {
+    background-color: #f3f4fb;
+    padding: 15px 0px;
+}
+
+h6 {
+    margin-bottom: 0px;
+}
+
+.custom-white-bg {
+    background-color: white;
+}
+
+.custom-setting-btn {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 0px; 
+    padding: 15px
+}
+

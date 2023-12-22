@@ -1,0 +1,139 @@
+h1 {
+    font-size: 20px;
+    line-height: 10px;
+}
+
+p {
+    font-size: 12px;
+    color: rgb(77, 74, 74);
+}
+
+.AddListingPageContainer {
+    margin-bottom: 40px;
+    padding: 20px 30px 30px 30px;
+    width: auto;
+}
+
+.Header {
+    width: auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.ArrowLeft {
+    position: absolute;
+    left: 0;
+}
+
+.Header h1 {
+    text-align: center;
+}
+
+.DragNDropContainer, .CategoryContainer, .InputContainer, .DescriptionContainer, .ValueContainer, .MapContainer, .Button {
+    padding-top: 15px;
+}
+
+.DragNDropContainer {
+    height: 100px;
+    width: auto;
+    padding: 20px;
+    border: 2px dashed rgb(128, 120, 120);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Image {
+    stroke-width: 1px;
+    color: rgb(128, 120, 120);
+    height: 40px;
+    padding-top: 10px;
+}
+
+.BtnArea {
+    width: auto;
+    display: flex;
+    padding-top: 15px;
+}
+
+.image-button {
+    display: flex;
+    align-items: center;
+}
+
+.image-button img {
+    margin-right: 10px; /* Adjust the padding to your preference */
+}
+
+
+#BtnOne, #BtnTwo {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(113, 71, 150);
+    background: none;
+    color: rgb(113, 71, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#BtnOne {
+    border-radius: 5px 0px 0px 5px;
+    border-right: 0px;
+}
+
+#BtnTwo {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 120, 120);
+}
+
+textarea {
+    height: 80px;
+}
+
+input {
+    height: 30px;
+}
+
+.ValOptions {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.ValOptions button {
+    padding: 10px;
+    width: 15%;
+    border-radius: 30px;
+    border: 2px solid rgb(113, 71, 150);
+    background: none;
+    color: rgb(113, 71, 150);
+    transition-duration: 0.4s;
+}
+
+.ValOptions button:hover {
+    background: rgb(113, 71, 150);
+    color: white;
+}
+
+.Button button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(113, 71, 150);
+    color: white;
+}

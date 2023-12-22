@@ -1,0 +1,45 @@
+/* NavBar.module.css */
+
+.adminNavigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.navbarUl {
+  display: flex;
+  margin: 0;
+  padding: 10px;
+}
+
+.navbarLi {
+  position: relative;
+  list-style: none;
+}
+
+.navbarA {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  padding: 0px 10px;
+}
+
+.icon {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.iconAbove {
+  line-height: normal;
+}
+
+.iconAbove .icon {
+  display: block;
+  position: static;
+}

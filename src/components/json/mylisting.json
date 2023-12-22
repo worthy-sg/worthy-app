@@ -1,0 +1,50 @@
+{
+    
+    "listing":  [
+        {            
+            "image": "/assets/images/item_slipper.png",
+            "label": "Slipper",
+            "price": "$1",
+            "score": 123,
+            "user": "@iamchoonghong"
+        },
+        {
+            "image": "/assets/images/item_bicycle.png",
+            "label": "Bicycle",
+            "price": "$50",
+            "score": 123,
+            "user": "@iamchoonghong"
+        },
+        {
+            "image": "/assets/images/item_slipper.png",
+            "label": "Slipper",
+            "price": "$1",
+            "score": 123,
+            "user": "@iamchoonghong"
+        },
+        {
+            "image": "/assets/images/item_bicycle.png",
+            "label": "Bicycle",
+            "price": "$50",
+            "score": 123,
+            "user": "@iamchoonghong"
+        },
+        {
+            "image": "/assets/images/item_slipper.png",
+            "label": "Slipper",
+            "price": "$50",
+            "score": 123,
+            "user": "@iamchoonghong"
+        },
+        {
+            "image": "/assets/images/item_bicycle.png",
+            "label": "Bicycle",
+            "price": "$50",
+            "score": 123,
+            "user": "@iamchoonghong"
+        }
+    ]
+    
+
+    
+  }
