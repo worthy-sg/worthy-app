@@ -8,14 +8,14 @@ import usersData from '@json/userData.json';
 
 const userData = usersData.userData;
 
-function Leaderboard() {
+function Leaderboard() { 
   const topThreeUsers = userData.slice(0, 3);
   const otherUsers = userData.slice(3);
 
   return (
       <main className="container">
         <Nav />
-        <div className="row mt-4 mb-4 mx-auto">
+        <div className="row mt-4 mb-5 mx-auto">
             <div className="col-3 col-md-3 col-lg-3 custom-text-align-center">
                 <a href="/home">
                 <Image src={chevronleft} width="24" alt="chevronleft"/>
@@ -25,11 +25,7 @@ function Leaderboard() {
             Leaderboard
             </div>
         </div>
-        <div className="row mt-4 mb-3">
-          <div className="col-12 col-sm-12 text-center">
-            <i className="fa-solid fa-crown"></i>
-          </div>
-        </div>
+        {/*
         <div className="row col-11 mx-auto">
           {topThreeUsers.map((user, index) => (
             <div
@@ -48,20 +44,32 @@ function Leaderboard() {
             </div>
           ))}
         </div>
+          */}
+        
+        {/* Filter Tab  */}
+        <div className="row row-cols-1 row-cols-sm-10 row-cols-md-12 custom-tab-container mb-3">
+          <div className="col-6 col-sm-6 custom-tab">
+              <div className="btn p-0 pb-2">
+              My Ranking (Lord/Noble Lady)
+              </div>
+          </div>
+          <div className="col-6 col-sm-6 custom-tab">
+              <div className="btn p-0 pb-2">
+              Global
+              </div>
+          </div>
+        </div>
 
-        {otherUsers.map((user, index) => (
-          <div key={index} className="row col-11 mx-auto">
+        {userData.map((user, index) => (
+          <div key={index} className="row col-12 mx-auto">
             <div className="col-2 col-md-2 col-lg-2">
-              <p>{`#${index + 4}`}</p>
+              <p>{`#${index + 1 }`}</p>
             </div>
             <div className="col-8 col-md-8 col-lg-8">
-              <p>{user.name}</p>
+              <a href="/leaderboard/profile" className="text-secondary ft-5 custom-link"><p>{user.name}</p></a>
             </div>
             <div className="col-2 col-md-2 col-lg-2">
-              <p>
-                <i className="bi bi-star-fill"></i>
-                {user.score}
-              </p>
+              <p>{user.score}</p>
             </div>
           </div>
         ))}

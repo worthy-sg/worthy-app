@@ -1,0 +1,25 @@
+h1 {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+
+p {
+    font-size: 12px;
+    letter-spacing: 2.5;
+    line-height: 16px;
+}
+
+button {
+    background-color: #514FB5;;
+    border: 2px solid rgb(80, 79, 181);
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#btn {
+    background-color: rgba(255, 255, 255, 0);
+    color: #514FB5;
+    border: none;
+}
