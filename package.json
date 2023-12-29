@@ -14,7 +14,9 @@
     "bootstrap-icons": "^1.11.2",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-bootstrap": "^2.9.2",
+    "react-dom": "^18",
+    "react-feather": "^2.0.10"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

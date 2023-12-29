@@ -6,11 +6,10 @@ import Nav from '@/components/Navbar';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import profile from '@images/profile_img.png'
 import chevronleft from '@icons/icon-fi-chevron left.svg';
-import chevronright from '@icons/icon-fi-chevron right.svg';
 import ItemCard from '@/components/ItemCard'
 import mylisting from '@json/mylisting.json';
-import Statistics from '@/components/StatisticSection';
 import '@css/Profile.css';
+
 
 const data = mylisting.listing;
 
@@ -20,7 +19,7 @@ const containerStyle = {
     height: '100%',
   };
 
-const center = {
+  const center = {
     lat: 1.3521,
     lng: 103.8198,
 };
@@ -34,19 +33,14 @@ function Profile() {
 
   return (
     <div>
-    <div className="row mt-3 mb-3 mx-auto custom-header">     
+    <div className="row mt-3 mb-3 mx-auto">     
         <div className="col-3 col-md-3 col-lg-3 custom-text-align-center">
             <a href="/home">
             <Image src={chevronleft} width="24" alt="chevronleft"/>
             </a>
         </div>
         <div className="col-6 col-md-6 col-lg-6 display-8 fw-bold custom-text-align-center">
-        David 
-        </div>
-        <div className="col-3 col-md-3 col-lg-3 custom-text-align-center">
-            <a href="/settings">
-            <i className="bi bi-gear bi-lg custom-icon"></i>
-            </a>
+        David
         </div>
     </div>
 
@@ -72,7 +66,7 @@ function Profile() {
             <strong>Kingdom of Ang Mo Kio Estate</strong>
             </div>
         </div>
-        <div className="row row-cols-1 row-cols-sm-12 row-cols-md-12 m-1">
+        <div className="row row-cols-1 row-cols-sm-12 row-cols-md-12 m-1 mb-3">
             <div className="col-12 ">
             Prince (500)
             </div>
@@ -83,21 +77,21 @@ function Profile() {
             <i className="bi bi-clock" /> Joined on September 2023 - 1 month ago
             </div>
         </div>
-        <div className="row row-cols-1 row-cols-sm-10 row-cols-md-12 m-1">
-            <div className="btn custom-stats-btn col-12">
-              <strong>Stats</strong>
-              <span className="ml-auto">
-                <Image src={chevronright} alt="chevronright" className="mr-2" />
-              </span>
+        <div className="row row-cols-1 row-cols-sm-10 row-cols-md-12 mb-4 m-1">
+            <div className="col-12">
+            <strong>1234</strong> Likes · <strong>5324</strong> Supporters · <strong>1532</strong> Assets
             </div>
         </div>
-        <div className="row m-1">
-            <Statistics />
-        </div>                               
+
         <div className="row row-cols-1 row-cols-sm-10 row-cols-md-12 mb-3 custom-tab-container">
-            <div className="col-12 p-1">
+            <div className="col-6 col-sm-6 p-1">
                 <button className="btn btn-primary custom-btn">
-                    Edit Profile
+                    Support
+                </button>
+            </div>
+            <div className="col-6 col-sm-6 p-1">
+                <button className="btn btn-primary custom-btn ">
+                    Message
                 </button>
             </div>
         </div>
