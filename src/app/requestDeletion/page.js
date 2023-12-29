@@ -1,14 +1,16 @@
 'use client'
 
+import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowLeft, ArrowRight } from 'react-feather';
 import './requestDeletionPage.css'
 
-import slippers from './slippers.jpg'
+import image from './slippers.jpg';
 
 const imgStyle = {
     height: '200px',
+    width: 'auto',
 }
 
 const iconStyle = {
@@ -28,7 +30,7 @@ export default function RequestDeletionPage() {
             <Container>
                 <Row className='mt-4 mx-auto rounded d-flex justify-content-center'>
                     <Col xs='12' lg='5' className='d-flex align-self-center justify-content-center'>
-                        <img src={slippers} style={imgStyle} />
+                        <Image src={image} style={imgStyle} />
                     </Col>
                 </Row>
 
