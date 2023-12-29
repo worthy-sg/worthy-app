@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowLeft, ThumbsDown, ThumbsUp, CornerUpRight} from 'react-feather';
@@ -7,10 +8,12 @@ import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import React, { useState } from 'react';
 import './productDetailPage.css'
 
-import slippers from './slippers.jpg'
+import image from './slippers.jpg';
 
 const imgStyle = {
     height: '200px',
+    width: 'auto',
+    borderRadius: '15px',
 }
 
 const iconStyle = {
@@ -63,7 +66,7 @@ export default function ProductDetailPage() {
 
                 <Row className='mt-4 mx-auto rounded'>
                     <Col className='d-flex align-self-center justify-content-center'>
-                        <img src={slippers} style={imgStyle} />
+                        <Image src={image} style={imgStyle} />
                     </Col>
                 </Row>
 
@@ -126,7 +129,7 @@ export default function ProductDetailPage() {
                             <Col className='d-flex'>
                                 <div className='profilePic'>
                                     {/* <img src={img} /> */}
-                                    <img src={slippers} />
+                                    <Image src={image} />
                                 </div>
                             
                                 <div className='ms-3 pt-3'>
@@ -143,7 +146,6 @@ export default function ProductDetailPage() {
                             </Col>
                         </Row>
                     </Col>
-                    
                 </Row>
 
             </Container>
