@@ -71,7 +71,7 @@ function Settings() {
           </span>
         </div>
         </a>
-        <a className="custom-link">
+        <a href="/about" className="custom-link">
         <div className="btn custom-setting-btn">
           About Us
           <span className="ml-auto">
