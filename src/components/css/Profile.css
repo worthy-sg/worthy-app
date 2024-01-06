@@ -8,9 +8,6 @@
     height: 180px;
 }
 
-.custom-icon {
-    font-size: 24px;
-}
   
 .custom-img {
     margin-bottom: -40px;
@@ -51,3 +48,13 @@
 .custom-tab div:hover{
     border-bottom: 2px solid #514FB5;
 } 
+
+.custom-setting-btn {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 0px; 
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}

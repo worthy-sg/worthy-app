@@ -6,7 +6,7 @@ import bell from '@icons/icon-fi-bell-outlined.svg'
 import '@css/Settings.css';
 
 function Transactions() {
-    const [notifhecked, setnotifChecked] = useState(false);
+    const [notifchecked, setnotifChecked] = useState(false);
     const [smsChecked, setsmsChecked] = useState(false);
     const [emailChecked, setemailChecked] = useState(false);
     const [pushChecked, setpushChecked] = useState(false);
@@ -53,8 +53,8 @@ function Transactions() {
                     <div className="custom-toggle-div mb-3">
                     <h5 className='fw-bold'>All notifications</h5>
                         <div className="background_box">
-                            <label className={`toggle_box ${notifhecked ? 'checked' : ''}`}>
-                                <input type="checkbox" id="checkbox" onChange={handleNotifToggle} checked={notifhecked}/>
+                            <label className={`toggle_box ${notifchecked ? 'checked' : ''}`}>
+                                <input type="checkbox" id="checkbox" onChange={handleNotifToggle} checked={notifchecked}/>
                                 <div className="circle"></div>
                             </label>
                         </div>

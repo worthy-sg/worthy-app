@@ -1,26 +1,26 @@
 'use client'
 import { useRouter } from "next/navigation";
 import Image from 'next/image';
-import worthy_img from '../../../public/assets/images/worthy_img.png';
+import worthy_img from '@images/worthy_img.png';
 
 const CreateAccount = () => {
   const router = useRouter();
 
   return (
-    <div className="container">
-      <div className="row mt-5 mb-3">
+    <div className="container mt-5">
+      <div className="row">
         <div className="col-lg-6 text-center mx-auto">
           <Image src={worthy_img} className="w-1" alt="Logo"/>
         </div>
       </div>
 
-      <div className="row mt-4 mb-3">
+      <div className="row mt-5 mb-5">
         <div className="col-lg-6 text-center mx-auto">
           <h1 className="custom-title">Create Account</h1>
         </div>
       </div>
 
-      <div className="row mt-5 mb-3">
+      <div className="row mb-4">
         <div className="col-10 col-lg-6 mx-auto">
           <form>
             <div className="form-group">
@@ -35,7 +35,7 @@ const CreateAccount = () => {
         </div>
       </div>
 
-      <div className="row mt-5 mb-3">
+      <div className="row mb-4">
         <div className="col-10 col-lg-6 mx-auto">
           <form>
             <div className="form-group">
@@ -50,7 +50,7 @@ const CreateAccount = () => {
         </div>
       </div>
 
-      <div className="row mt-5 mb-3">
+      <div className="row mb-4">
         <div className="col-10 col-lg-6 mx-auto">
           <form>
             <div className="form-group">
@@ -65,7 +65,7 @@ const CreateAccount = () => {
         </div>
       </div>
 
-      <div className="row mt-5 mb-3">
+      <div className="row mb-4">
         <div className="col-10 col-lg-6 mx-auto">
           <form>
             <div className="form-group">
@@ -80,7 +80,7 @@ const CreateAccount = () => {
         </div>
       </div>
 
-      <div className="row mt-5 mb-3">
+      <div className="row mb-4">
         <div className="col-10 col-lg-6 mx-auto">
           <form>
             <div className="form-group">
@@ -95,7 +95,7 @@ const CreateAccount = () => {
         </div>
       </div>
 
-      <div className="row mt-5 mb-3">
+      <div className="row mb-4">
         <div className="col-10 col-lg-6 mx-auto">
           <form>
             <div className="form-group">
@@ -110,7 +110,7 @@ const CreateAccount = () => {
         </div>
       </div>
 
-      <div className="row mt-5 mb-3">
+      <div className="row mb-4">
         <div className="col-10 col-lg-6 mx-auto">
           <form>
             <div className="form-group">
@@ -125,7 +125,7 @@ const CreateAccount = () => {
         </div>
       </div>
 
-      <div className="row mt-4 mb-3">
+      <div className="row mb-3">
         <div className="col-10 col-lg-6 mx-auto">
           <form>
             <div className="form-group">
