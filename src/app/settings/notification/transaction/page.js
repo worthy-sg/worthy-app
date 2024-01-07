@@ -49,7 +49,7 @@ function Transactions() {
                     <h5 className='fw-bold'>About there notifications</h5>
                     <p>These are important updates...</p>
 
-                    <div className=" mt-3">
+                    <div className="mt-3">
                         <h6 className='fw-bold'>More notification settings</h6>
                     </div>
 

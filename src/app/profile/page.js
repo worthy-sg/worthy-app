@@ -1,5 +1,6 @@
 'use client'
 
+import { useRouter } from "next/navigation"; 
 import React from 'react';
 import Image from 'next/image';
 import Nav from '@/components/Navbar';
@@ -31,6 +32,7 @@ const mapOptions = {
 
 
 function Profile() {
+  const router = useRouter();
 
   return (
     <div>
@@ -84,19 +86,21 @@ function Profile() {
             </div>
         </div>
         <div className="row row-cols-1 row-cols-sm-10 row-cols-md-12 m-1">
+          <a href="/profile/1" className="custom-link">
             <div className="btn custom-stats-btn col-12">
               <strong>Stats</strong>
               <span className="ml-auto">
                 <Image src={chevronright} alt="chevronright" className="mr-2" />
               </span>
             </div>
+          </a>
         </div>
         <div className="row m-1">
             <Statistics />
         </div>                               
         <div className="row row-cols-1 row-cols-sm-10 row-cols-md-12 mb-3 custom-tab-container">
             <div className="col-12 p-1">
-                <button className="btn btn-primary custom-btn">
+                <button className="btn btn-primary custom-btn" onClick={() => router.push("/profile/edit")}>
                     Edit Profile
                 </button>
             </div>

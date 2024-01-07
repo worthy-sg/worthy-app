@@ -1,4 +1,5 @@
 .custom-title {
+  font-family: 'Poppins';
   font-weight: bold;
   font-size: 42px;
 }
@@ -37,8 +38,7 @@
   color: #514FB5!important; 
   font-weight: bold;
   text-align: right;
-  padding-top: 10px;
-  width: 100%;  
+  padding-top: 12px; 
 }
 
 .custom-text-align-center{
@@ -104,10 +104,59 @@
   display: none; 
 }
 
-.icon-overlay {
+.custom-grey-bg {
+  background-color: #f3f4fb;
+  padding: 15px 0px;
+}
+
+.custom-profile {
+  width: 20%;
+  padding: 5px;
+}
+
+.custom-icon {
+  font-size: 20px;
+}
+
+.custom-icon-lg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.custom-icon-lg {
+  font-size: 200px;
+}
+
+.map-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  top: 5%;
-  left: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  width: 65px;
+  height: 30px;
+  border-radius: 25px;
+  top: 10%;
+  left: 15%;
+  transform: translate(-30%, -50%);
+  z-index: 1;
+}
+
+.icon-overlay {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  top: 10%;
+  right: 5%;
   transform: translate(-30%, -50%);
   z-index: 1;
 }
@@ -119,7 +168,8 @@
   border: none;
   position:absolute;
   padding: 0px;
-  right: 0;
+  top: 100%;
+  right: 0%;
 }
 
 .dropdown-item {
@@ -152,3 +202,7 @@
 .custom-tab div:hover{
   border-bottom: 2px solid #514FB5;
 } 
+
+.custom-input {
+  margin: 0px 10px;
+}

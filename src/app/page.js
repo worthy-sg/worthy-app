@@ -23,7 +23,7 @@ function GuestHome() {
       {/* Featured Products Section */}
       <div className="row mt-3 mx-auto">
         {data.map((item, index) => (
-          <div className="col-6 col-md-6 col-lg-3 mb-4" key={index}>
+          <div className="col-6 col-md-6 col-lg-3" key={index}>
             <ItemCard item={item} index={index} />
           </div>
         ))}
